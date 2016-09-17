@@ -41,10 +41,11 @@ OpenCCx::OpenCCx()
 	, opencc_open_fun_(NULL)
 	, opencc_close_fun_(NULL)
 	, opencc_convert_utf8_to_buffer_fun_(NULL)
-	, opencc_error_fun_ (NULL)
+	, opencc_error_fun_(NULL)
 	, currConverter_(NULL)
 {
 }
+
 bool OpenCCxRuntineComponent::OpenCCx::Load(ConverterType type)
 {
 	if (dllHandle_ == NULL) {
@@ -80,7 +81,7 @@ bool OpenCCxRuntineComponent::OpenCCx::Load(ConverterType type)
 	return true;
 }
 
-void OpenCCxRuntineComponent::OpenCCx::Dispose()
+void OpenCCxRuntineComponent::OpenCCx::Close()
 {
 	if (opencc_close_fun_) {
 		for (auto it = loadedTypes_.begin(); it != loadedTypes_.end(); ++it) {

@@ -32,15 +32,17 @@ namespace OpenCCxRuntineComponent
 
 
 
-	public ref class OpenCCx sealed:IDisposable
-    {
-    public:
+	public ref class OpenCCx sealed
+	{
+	public:
 		OpenCCx();
 
 	public:
 		bool Load(ConverterType type);
+		void Close();
 		String^ Convert(String^ toConvert);
 		String^ Error();
+
 	private:
 	private:
 		bool LoadDll();
@@ -67,6 +69,6 @@ namespace OpenCCxRuntineComponent
 		HMODULE dllHandle_;
 		std::map<ConverterType, opencc_t> loadedTypes_;
 		opencc_t currConverter_;
-    };
+	};
 
 }
