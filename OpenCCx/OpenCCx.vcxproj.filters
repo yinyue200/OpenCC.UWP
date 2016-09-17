@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="opencc">
+      <UniqueIdentifier>{6e29270b-9724-4137-bb28-34f6858a96d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\source">
+      <UniqueIdentifier>{92e6dc15-a470-4b10-825c-19b3362bb80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\source\tools">
+      <UniqueIdentifier>{d8308864-1eaa-40cb-ad6c-d67316e3e742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\deps">
+      <UniqueIdentifier>{95bb27d2-06ec-463f-b5f3-598ccf05d971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\deps\darts-clone">
+      <UniqueIdentifier>{02e7102d-07a3-4fd0-b9d3-171f0aee1f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\deps\rapidjson-0.11">
+      <UniqueIdentifier>{5645bd79-b503-4300-9d8c-087eaaa19979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\deps\rapidjson-0.11\internal">
+      <UniqueIdentifier>{e35e4238-85b6-403b-8a0e-34f7a7bc8876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencc\deps\tclap-1.2.1">
+      <UniqueIdentifier>{ca85d0b7-29bf-4cfc-895c-29d9320d75ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="OpenCCx.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="opencc_src\src\BinaryDict.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\Config.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\Conversion.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\ConversionChain.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\Converter.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\DartsDict.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\Dict.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\DictEntry.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\DictGroup.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\MaxMatchSegmentation.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\Segmentation.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\SimpleConverter.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\TextDict.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\UTF8StringSlice.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\UTF8Util.cpp">
+      <Filter>opencc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\tools\CommandLine.cpp">
+      <Filter>opencc\source\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="opencc_src\src\tools\DictConverter.cpp">
+      <Filter>opencc\source\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenCCx.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="opencc_src\src\BinaryDict.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\CmdLineOutput.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Common.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Config.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Conversion.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\ConversionChain.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Converter.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\DartsDict.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Dict.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\DictEntry.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\DictGroup.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Exception.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Export.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Lexicon.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\MaxMatchSegmentation.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\opencc.h">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Optional.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Segmentation.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\Segments.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\SerializableDict.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\SimpleConverter.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\TextDict.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\UTF8StringSlice.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\src\UTF8Util.hpp">
+      <Filter>opencc\source</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\darts-clone\darts.h">
+      <Filter>opencc\deps\darts-clone</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\Arg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\ArgException.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\ArgTraits.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\CmdLine.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\CmdLineInterface.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\CmdLineOutput.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\Constraint.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\DocBookOutput.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\HelpVisitor.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\IgnoreRestVisitor.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\MultiArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\MultiSwitchArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\OptionalUnlabeledTracker.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\StandardTraits.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\StdOutput.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\SwitchArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\UnlabeledMultiArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\UnlabeledValueArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\ValueArg.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\ValuesConstraint.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\VersionVisitor.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\Visitor.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\XorHandler.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\tclap-1.2.1\tclap\ZshCompletionOutput.h">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\document.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\filestream.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\prettywriter.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\rapidjson.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\reader.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\stringbuffer.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\writer.h">
+      <Filter>opencc\deps\rapidjson-0.11</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\internal\pow10.h">
+      <Filter>opencc\deps\rapidjson-0.11\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\internal\stack.h">
+      <Filter>opencc\deps\rapidjson-0.11\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="opencc_src\deps\rapidjson-0.11\internal\strfunc.h">
+      <Filter>opencc\deps\rapidjson-0.11\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="opencc_src\deps\tclap-1.2.1\tclap\COPYING">
+      <Filter>opencc\deps\tclap-1.2.1</Filter>
+    </None>
+  </ItemGroup>
+</Project>

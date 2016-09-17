@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>bd4dcc6b-0cb5-497f-af86-77eb8bd3ec7f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6a600a1e-9f48-45fd-bc51-fe7c6df1d77e</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CppTest2_TemporaryKey.pfx" />
+    <None Include="..\Debug\OpenCCx\OpenCCx.dll" />
+    <None Include="..\OpenCCx\opencc_src\data\config\hk2s.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\s2hk.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\s2t.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\s2tw.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\s2twp.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\t2hk.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\t2s.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\t2tw.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\tw2s.json" />
+    <None Include="..\OpenCCx\opencc_src\data\config\tw2sp.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\OpenCCx\opencc_src\data\dictionary\STPhrases.txt" />
+    <Text Include="..\OpenCCx\opencc_src\data\dictionary\TSPhrases.txt" />
+    <Text Include="..\OpenCCx\opencc_src\data\dictionary\STCharacters.txt" />
+    <Text Include="..\OpenCCx\opencc_src\data\dictionary\TSCharacters.txt" />
+  </ItemGroup>
+</Project>

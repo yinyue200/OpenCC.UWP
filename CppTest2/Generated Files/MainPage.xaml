@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CppTest2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CppTest2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="btn2s" Content="2s" HorizontalAlignment="Left" Height="86" Margin="25,460,0,0" VerticalAlignment="Top" Width="128"                    />
+        <TextBox x:ConnectionId='2' x:Name="textBox" HorizontalAlignment="Left" Height="407" Margin="15,18,0,0" TextWrapping="Wrap" Text="复习汉字" VerticalAlignment="Top" Width="345"/>
+        <Button x:ConnectionId='3' x:Name="btn2t" Content="2t" HorizontalAlignment="Left" Height="86" Margin="198,460,0,0" VerticalAlignment="Top" Width="128"                    />
+    </Grid>
+</Page>
+

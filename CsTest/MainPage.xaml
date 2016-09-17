@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CsTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CsTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="368" Margin="27,22,0,0" TextWrapping="Wrap" Text="重复，回复，复制，学习" VerticalAlignment="Top" Width="319"/>
+        <Button x:Name="btn2Simple" Content="转化为简化字" HorizontalAlignment="Left" Margin="25,441,0,0" VerticalAlignment="Top" Click="btn2Simple_Click"/>
+        <Button x:Name="btn2Traditioal" Content="转化为正体字" HorizontalAlignment="Left" Margin="161,440,0,0" VerticalAlignment="Top" Click="btn2Traditioal_Click"/>
+
+    </Grid>
+</Page>
