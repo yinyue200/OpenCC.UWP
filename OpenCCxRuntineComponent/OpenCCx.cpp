@@ -45,7 +45,6 @@ OpenCCx::OpenCCx()
 	, currConverter_(NULL)
 {
 }
-
 bool OpenCCxRuntineComponent::OpenCCx::Load(ConverterType type)
 {
 	if (dllHandle_ == NULL) {
@@ -81,7 +80,7 @@ bool OpenCCxRuntineComponent::OpenCCx::Load(ConverterType type)
 	return true;
 }
 
-void OpenCCxRuntineComponent::OpenCCx::Close()
+void OpenCCxRuntineComponent::OpenCCx::Dispose()
 {
 	if (opencc_close_fun_) {
 		for (auto it = loadedTypes_.begin(); it != loadedTypes_.end(); ++it) {

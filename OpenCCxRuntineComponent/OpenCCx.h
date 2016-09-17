@@ -32,17 +32,15 @@ namespace OpenCCxRuntineComponent
 
 
 
-    public ref class OpenCCx sealed
+	public ref class OpenCCx sealed:IDisposable
     {
     public:
 		OpenCCx();
 
 	public:
 		bool Load(ConverterType type);
-		void Close();
 		String^ Convert(String^ toConvert);
 		String^ Error();
-
 	private:
 	private:
 		bool LoadDll();
