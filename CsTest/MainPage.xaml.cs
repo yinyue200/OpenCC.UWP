@@ -58,9 +58,11 @@ namespace CsTest
                 textBox.Text = ret;
             }
 
-            convert();
+            //convert();
         }
-
+        /*/// <summary>
+        /// 源作者写的，没看懂干什么，遂删除
+        /// </summary>
         private async void convert()
         {
             Stream s = await Common.ReadFile("opencc", "TWPhrasesAll.txt");
@@ -89,6 +91,6 @@ namespace CsTest
             }
 
             ww.Flush();
-        }
+        }*/
     }
 }
